@@ -5,7 +5,6 @@ import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import SuggestedMentors from '../components/SuggestedMentors';
 
-
 const DashboardWrapper = styled.div`
   display: flex;
 `;
@@ -22,7 +21,6 @@ const Dashboard = () => {
       <Sidebar />
       <ContentWrapper>
         <Feed />
-       
         <SuggestedMentors />
       </ContentWrapper>
     </DashboardWrapper>
