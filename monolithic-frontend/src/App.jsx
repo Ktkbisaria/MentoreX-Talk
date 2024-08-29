@@ -7,7 +7,7 @@ import HomePage from './pages/HomePage';
 import MentorProfilePage from './pages/MentorProfilePage';
 import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
-
+import Inbox from './components/inbox';  // Importing the Inbox component
 
 import Dashboard from './pages/Dashboard';
 
@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/inbox" element={<Inbox />} /> {/* Added route for Inbox component */}
       </Routes>
       <Footer />
     </Router>
@@ -28,6 +29,3 @@ const App = () => {
 };
 
 export default App;
-// hello
-//hi
-//huhuuhuuu
